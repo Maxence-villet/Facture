@@ -1,5 +1,5 @@
 
-let prixTotal = 0;
+let prixTotal = 0.00;
 
 
 ajouter.onclick = function() {
@@ -39,7 +39,7 @@ ajouter.onclick = function() {
         // Ajouter la ligne au corps du tableau
         tableBody.appendChild(nouvelleLigne);
 
-        prixTotal = prixTotal + parseInt(total);
+        prixTotal = prixTotal + parseFloat(total);
         console.log(prixTotal);
 
 
