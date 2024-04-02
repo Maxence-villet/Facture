@@ -61,7 +61,7 @@ refresh.onclick = function() {
     
     } else {
 
-        document.getElementsByClassName("total")[0].value  = total;
+        document.getElementsByClassName("total")[0].value  = total.toFixed(2);
 
     }
 
