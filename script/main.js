@@ -60,8 +60,8 @@ refresh.onclick = function() {
         alert("veuillez remplir les champs : Quantité, Prix Unitaire");
     
     } else {
-
-        document.getElementsByClassName("total")[0].value  = total.toFixed(2);
+        total = total.toFixed(2);
+        document.getElementsByClassName("total")[0].value  = total;
 
     }
 
